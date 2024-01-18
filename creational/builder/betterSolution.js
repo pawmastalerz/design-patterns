@@ -1,3 +1,5 @@
+// SOLUTION that's even better and JS-specific:
+
 class Address {
   constructor(city, street, streetNumber) {
     this.city = city;

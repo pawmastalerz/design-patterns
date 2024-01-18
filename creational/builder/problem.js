@@ -1,3 +1,12 @@
+// SUMMARY:
+//
+// Builder lets us create a complex objects with simple creation steps.
+// It separates the creation process of an instance from their representation.
+
+// PROBLEM:
+//
+// Let's say we want to create users in our app:
+
 class Address {
   constructor(city, street, streetNumber) {
     this.city = city;
