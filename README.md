@@ -1,2 +1,3 @@
 # design-patterns
-Common design patterns with examples in JavaScript.
+
+Common design patterns, OOP and SOLID principles with examples in JavaScript.
