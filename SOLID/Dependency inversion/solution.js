@@ -45,8 +45,8 @@ class PhoneAuthorizer extends Authorizer {
     );
   }
 }
-// ...and in UserManager swap the OwnAuthorizer with PhoneAuthorizer or even create new UserManager.
-// The way we invoke the Authorizers authenticate method stays the same.
+// ...and create a new UserManager with different Authorizer.
+// The way we invoke the login method and Authorizers authenticate method stays the same.
 // UserManager class does not depend on low level class, now it depends on abstraction.
 
 phoneUserManager = new UserManager(new PhoneAuthorizer());
