@@ -1,3 +1,7 @@
+// SOLUTION
+//
+// Let's implement Memento design pattern:
+
 class Memento {
   #text = "";
 
